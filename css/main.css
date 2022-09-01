@@ -1,0 +1,153 @@
+/* ------------Global-----------*/
+body {
+  background-color: #ffffff;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #203541;
+  margin: 0.2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: #203541;
+}
+/*--------------------------------------*/
+
+/*-------------Navbar-------------*/
+.navbar.github-finder{
+  padding:1rem;
+  background-color: #000000;
+}
+
+.navbar img {
+  width:2.5%;
+  height:auto;
+}
+
+/*-----------------------------------*/
+/*------------Repos Display------------*/
+
+.repos {
+  margin-top: 80px;
+  text-align:left;
+}
+.repos h3 {
+  text-align: center;
+}
+
+.repos ul {
+  padding-left:0;
+}
+.repos ul li {
+  height: auto;
+  margin: 1.5em;
+  background-color: #F0F8FF;
+  color: #000000;
+  border-radius: 5px;
+  padding: 1em 3em;
+}
+.repos ul button {
+  padding:0.85em;
+  width:200px;
+  margin-top:20px;
+}
+span.repoName {
+  font-size: 1.5em;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+span.issueCount {
+  font-size: 1.25em;
+}
+/*------------------------*/
+/*------Search Input-------*/
+
+.container {
+  text-align:center;
+}
+
+form {
+  display: inline-block;
+  margin: 0 auto;
+}
+form label {
+  display: block;
+  color: #203541;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.4em;
+}
+input {
+  display: block;
+  height: 50px;
+  margin: 5px 0;
+  font-size: 1em;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+input[type='text'] {
+  min-width:200px;
+  margin-right:1.5em;
+  border: none;
+  border-bottom: 1px solid #98C1B0;
+}
+input[type='submit'], 
+.repos button {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  font-weight: 700;
+  font-size: 1em;
+  background-color: #0D1A29;
+  color: #ffffff;
+ 
+}
+/*------------------------*/
+/*--------Modal Display --------*/
+
+
+#modal-content h3 {
+  text-align: center;
+}
+
+#modal-content ul {
+  padding-right: 40px;
+}
+
+#modal-content ul li {
+  margin: 35px 0;
+}
+
+#modal-content ul li a {
+  text-align: right;
+  display: block;
+  color: 	#008000;
+}
+#modal-content ul {
+  height: auto;
+  margin: 20px;
+  background-color: #F0F8FF;
+  color: #000000;
+  border-radius: 5px;
+  padding: 1em 3em;
+}
+
+@media screen and (max-width:768px) {
+  .commits_wrapper span {
+    word-break:break-all;
+  }
+}
+/*------------------------*/

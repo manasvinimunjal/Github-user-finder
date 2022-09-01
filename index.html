@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Github User Repo Finder | Sonatype  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <meta name="Manasvini Munjal" content="Github User Finder">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="navbar github-finder">
+    <img src="/img/pngaaa.com-94893.png" alt="Github Logo">
+  </div>
+  <div class="container">
+  <form>
+   
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="org"></label>
+        <input type="text" name="org" placeholder="Enter github user or Org"/>
+    </div>
+
+    <div class="form-group col-md-6">
+        <label for="submit"></label>
+        <input type="submit" value="Submit" />
+    </div>
+   
+    </div>
+    
+  </form>
+  
+  <div class="repos">
+    <ul id="view_repos">
+    </ul>
+  </div>
+  <div id="commit-detail" class="modal display_commits">
+    <div class="header">
+      <h5></h5>
+      <div class="close"></div>
+    </div>
+    <div id="modal-content">
+      <ul>
+      </ul>
+    </div>
+  </div>
+  <div id="overlay"></div>
+</body>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</div>
+
+</html>
